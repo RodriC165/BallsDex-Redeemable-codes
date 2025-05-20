@@ -17,7 +17,7 @@ class Balls(commands.GroupCog, group_name=settings.players_group_cog_name):
         return {}  
 
     def save_redeemed_codes(self):
-        """Guarda los códigos canjeados en un archivo JSON."""
+        """Save the codes in a JSON file"""
         with open("redeemed_codes.json", "w") as f:
             json.dump(self.redeemed_codes, f)
 
