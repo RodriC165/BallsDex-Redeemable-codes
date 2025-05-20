@@ -29,7 +29,7 @@ class Balls(commands.GroupCog, group_name=settings.players_group_cog_name):
         Parameters
         ----------
         code: str
-            El código que el usuario quiere verificar.
+            The code that the user wants to verify.
         """
         player_id = str(interaction.user.id)  
         
